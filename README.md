@@ -4,6 +4,22 @@ Work in pam configuration (authentfication system for UNIX) and crypted/uncrypte
 
 LINUX only
 
+## Install
+
+make install
+
+## Uninstall
+
+make uninstall
+
+
+
+
+#Technical information :
+
+
+/*
+
 ## Add a new user {user}
 ``
 sudo adduser {user}
@@ -58,8 +74,7 @@ sudo chown -R {user}:{user} {mount_point} ; sudo chmod 700 -R {mount_point}
 ``
 sudo apt-get install libpam0g-dev
 ``
+*/
 
-## install
-make install
 
 then you can test it ! :)
