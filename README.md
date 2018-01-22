@@ -15,10 +15,10 @@ make uninstall
 
 
 
-#Technical information :
+## Technical information :
 
 
-/*
+## /*
 
 ## Add a new user {user}
 ``
@@ -74,7 +74,7 @@ sudo chown -R {user}:{user} {mount_point} ; sudo chmod 700 -R {mount_point}
 ``
 sudo apt-get install libpam0g-dev
 ``
-*/
+## */
 
 
 then you can test it ! :)
